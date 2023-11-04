@@ -1,0 +1,25 @@
+Task:
+1. Create a simple web application: You can use any language or framework you’re comfortable with. The
+application should have at least two pages: a home page and an about page.
+2. Version Control: Initialize a Git repository in your project directory, make regular commits while
+developing the application, and push your code to a remote repository on GitHub.
+3. Write Tests: Write unit tests for your application. The tests should cover all the main functionalities of your
+application.
+4. Dockerize the Application: Create a Dockerfile for your application and push the image to Docker Hub or
+any other container registry you prefer.
+5. Set up CI/CD Pipeline: Use a CI/CD tool (like Jenkins, CircleCI, Travis CI, etc.) to set up a pipeline for
+your application. The pipeline should:
+Be triggered on every push to the main branch of your remote repository.
+Run all the unit tests.
+Build a Docker image and push it to the registry if all tests pass.
+6. Deploy the Application: Automatically deploy the application to a server whenever a new image is pushed
+to the registry. You can use any cloud provider like AWS, Google Cloud, Azure, etc., or even a local server.
+7. Document Your Work: Write a README file explaining what your application does, how to run it locally,
+and how your CI/CD pipeline works. Include all the necessary commands and screenshots.
+Deliverables:
+Link to the remote GitHub repository.
+Link to the Docker image in the registry.
+Public IP address or URL where the deployed application can be accessed.
+README file.
+Remember, this assignment is not just about getting the task done but also about demonstrating best practices and
+how you structure code in a real-world scenario. Good luck!
