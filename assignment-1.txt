@@ -23,3 +23,22 @@ Public IP address or URL where the deployed application can be accessed.
 README file.
 Remember, this assignment is not just about getting the task done but also about demonstrating best practices and
 how you structure code in a real-world scenario. Good luck!
+-----------------------------
+Hint:
+Sure, I can guide you through the steps you would need to take to complete this assignment. Here's a general step-by-step guide:
+
+1. **Create a simple web application:** You can use any language or framework you're comfortable with. For example, if you're using Python and Flask, you can create a new Flask application with two routes, one for the home page and one for the about page.
+
+2. **Version Control with Git:** Initialize a Git repository in your project directory with `git init`. Make regular commits while developing the application using `git add .` and `git commit -m "Your message"`. Finally, push your code to a remote repository on GitHub with `git push origin main`.
+
+3. **Write Tests:** The way you write tests will depend on the language and framework you're using. For example, if you're using Python and Flask, you could use a testing framework like pytest. Your tests should cover all the main functionalities of your application.
+
+4. **Dockerize the Application:** Create a Dockerfile in your project root. In this file, specify the base image, copy your code into the image, install dependencies, expose the necessary port, and specify the command to run your application. You can then build your Docker image with `docker build -t your-image-name .` and push it to Docker Hub with `docker push your-image-name`.
+
+5. **Set up CI/CD Pipeline with Jenkins:** This will depend on how you have Jenkins set up. Generally, you'll need to create a Jenkinsfile in your repository that specifies how to install dependencies, run tests, build your Docker image and push it to Docker Hub. You'll also need to configure Jenkins to watch your repository and run this pipeline whenever code is pushed to the main branch.
+
+6. **Deploy the Application on AWS:** This will depend on which AWS service you're using for deployment (like EC2, ECS, EKS etc.). Generally, you'll need to pull the latest Docker image from Docker Hub, stop the currently running container if there is one, and start a new container with the new image.
+
+7. **Document Your Work:** Create a README.md file in your repository explaining what your application does, how to run it locally, how to run tests, how to build and run the Docker image locally, how your CI/CD pipeline works (including how it's triggered and what steps it performs), and how to deploy the application.
+
+Remember that these are general steps and might need to be adjusted depending on your specific tools and environment.
